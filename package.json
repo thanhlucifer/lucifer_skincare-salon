@@ -9,9 +9,14 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "framer-motion": "^11.3.28",
+    "next": "14.2.5",
     "react": "^18",
+    "react-countup": "^6.5.3",
     "react-dom": "^18",
-    "next": "14.2.5"
+    "react-icon": "^1.0.0",
+    "react-player": "^2.16.0",
+    "react-responsive": "^10.0.0"
   },
   "devDependencies": {
     "postcss": "^8",
