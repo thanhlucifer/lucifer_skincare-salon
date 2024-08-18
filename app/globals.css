@@ -28,7 +28,7 @@
         @apply text-xl;
     }
     .lead {
-        @apply text-lg mb-0;
+        @apply text-lg mb-8;
     }
     a {
         @apply font-primary;
@@ -36,7 +36,7 @@
 }
 
 .btn {
-    @apply bg-accent min-w-[178px] rounded-tl-[30px] rounded-bl-[30px] rounded-tr-[4px] rounded-br-[24px] font-primary uppercase tracking-[1px] h-[58px] pl-[8] pr-[6] flex items-center justify-center text-white;
+    @apply bg-accent min-w-[178px] rounded-tl-[30px] rounded-bl-[30px] rounded-tr-[4px] rounded-br-[24px] font-primary uppercase tracking-[1px] h-[58px] pl-8 pr-6 flex items-center justify-center text-white;
 }
 
 .input {

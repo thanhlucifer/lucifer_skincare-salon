@@ -38,7 +38,7 @@ const MobileNav = ({ setMobileNav }) => {
           return <Link href={link.href} key={index} className={`${pathname === link.href && "border-b-2 border-accent"} uppercase max-w-max mx-auto`}>{link.name}</Link>
         })}
       </ul>
-        <Socials className="text-white" />
+        <Socials containerStyles="text-white text-lg flex justify-center gap-6" />
     </nav>
   )
 }
