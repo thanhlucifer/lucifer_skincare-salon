@@ -24,7 +24,7 @@ const Home = () => {
           {/* image */}
           <div className="flex-1">
             <motion.div initial={{opacity: 0, bottom: "-100%"}} animate={{opacity: 1, bottom: "0", transition: {delay: 2.4, duration: 1.2, ease: "easeInOut"}}} onMouseEnter={mouseEnterHandler} onMouseLeave={mouseLeaveHandler} className="hidden xl:flex fixed bottom-0">
-              <Image src={"/assets/home/img.png"} width={864} height={650} quality={100} alt=""/>
+              <Image src={"/assets/home/img.png"} width={650} height={650} quality={100} alt=""/>
             </motion.div>
           </div>
           
